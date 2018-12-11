@@ -9,7 +9,7 @@ export function selectTab(tabId) {
 export function showTabs(...tabIds){
     const tabsToShow = {}
     tabIds.forEach(e => {
-        console.log(e)
+        //console.log(e)
         return tabsToShow[e] = true}
         )
 
